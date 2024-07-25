@@ -5,7 +5,7 @@
 	<title>Shantanu Pawar Portfolio</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
+
 	<link rel="icon" type="image/png" sizes="32x32" href="images/cv.png">
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -96,6 +96,7 @@
 				width: 0;
 			}
 		}
+
 		.zoom-effect {
 			overflow: hidden;
 			transition: transform 0.3s ease-out;
@@ -103,6 +104,125 @@
 
 		.zoom-effect:hover {
 			transform: scale(1.1);
+		}
+
+		.about-img img {
+			width: 100%;
+			height: auto;
+			display: block;
+			border-radius: 8px;
+		}
+
+		.about-img img {
+			width: 100%;
+			height: auto;
+			display: block;
+			border-radius: 8px;
+		}
+
+		@media (max-width: 527px) {
+			.about-img {
+				text-align: center;
+				margin-bottom: 0.5rem;
+			}
+
+			.about-img img {
+				max-width: 70%;
+				margin: 0 auto;
+				border-radius: 5px;
+			}
+
+			.about-info {
+				text-align: center;
+				margin-top: 0.5rem;
+			}
+
+			.about-info p {
+				font-size: 12px;
+				margin-bottom: 0.3rem;
+			}
+
+			.title-s {
+				font-weight: bold;
+				font-size: 14px;
+			}
+
+			.skills-title {
+				text-align: center;
+				margin: 1rem 0;
+				font-size: 30px;
+				font-weight: bold;
+				color: #333;
+			}
+
+			.skill-mf {
+				text-align: center;
+			}
+
+			.skill-mf .progress {
+				margin: .5rem auto 1.2rem auto;
+				border-radius: 0;
+				height: .7rem;
+				width: 90%;
+				/* Adjust width for better fit */
+			}
+
+			.skill-mf .progress .progress-bar {
+				height: .7rem;
+				background-color: #ffbd39;
+			}
+
+
+
+			.row {
+				display: flex;
+				justify-content: center;
+			}
+
+			.heading-section {
+				text-align: center;
+			}
+
+			.heading-section h1 {
+				font-size: 24px;
+			}
+
+			.heading-section h2 {
+				font-size: 20px;
+				margin-bottom: 1rem;
+			}
+
+			.about-info {
+				padding: 0;
+				margin-top: 1rem;
+			}
+
+			.about-info li {
+				flex-direction: column;
+				align-items: center;
+				margin-bottom: 1rem;
+			}
+
+			.about-info li span:first-child {
+				font-weight: bold;
+			}
+
+			.about-info li span:last-child {
+				text-align: center;
+				display: block;
+				margin-top: 0.5rem;
+			}
+
+			.counter-wrap {
+				justify-content: center;
+				text-align: center;
+			}
+
+			.counter-wrap .text {
+				margin: 0 auto;
+				/* Center the text container */
+			}
+
 		}
 	</style>
 
@@ -215,7 +335,8 @@
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
 										<div class="about-img">
-											<img src="images/about_shantanu.jpg" class="img-fluid rounded b-shadow-a" alt="">
+											<img src="images/about_shantanu.jpg" class="img-fluid rounded b-shadow-a"
+												alt="">
 										</div>
 									</div>
 									<!-- Details next to profile image -->
@@ -240,7 +361,7 @@
 								EDUCATION
 								Tailwind CSS, Bootstrap, Flask, NodeJS,
 								ReactJS -->
-
+								<br>
 								<div class="skill-mf">
 									<p class="title-s">Skills</p>
 									<!-- <span>HTML</span> <span class="pull-right">90%</span>
@@ -407,12 +528,18 @@
 									behaviour analysis, &amp; machine learning.
 									Demonstrated success in leading impactful projects and providing effective
 									mentorship.</p> -->
-								<p>As a final-year BTech student in Electronics and Telecommunication Engineering, I have a solid foundation in web
-									development and software engineering. Proficient in various programming languages and frameworks, I have hands-on
-									experience in full-stack development and a diverse range of projects. My skills span multiple technologies, enabling
-									me to adapt to different environments and project needs. I am passionate about creating innovative solutions and
-									thrive on problem-solving. My continuous learning mindset and strong communication skills make me effective in team
-									settings. I am excited to contribute my expertise to a dynamic organization and make a meaningful impact.</p>
+								<p>As a final-year BTech student in Electronics and Telecommunication Engineering, I
+									have a solid foundation in web
+									development and software engineering. Proficient in various programming languages
+									and frameworks, I have hands-on
+									experience in full-stack development and a diverse range of projects. My skills span
+									multiple technologies, enabling
+									me to adapt to different environments and project needs. I am passionate about
+									creating innovative solutions and
+									thrive on problem-solving. My continuous learning mindset and strong communication
+									skills make me effective in team
+									settings. I am excited to contribute my expertise to a dynamic organization and make
+									a meaningful impact.</p>
 
 
 								<ul class="about-info mt-4 px-md-0 px-2">
@@ -434,7 +561,8 @@
 											Data Structures & Algorithms,
 											Object-Oriented Programming, Database Management Systems, Operating Systems,
 											Computer Networks</span></li>
-									<li class="d-flex"><span>Interest:</span> <span>Traveling, Playing Cricket, Tracking</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Traveling, Playing Cricket,
+											Tracking</span></li>
 								</ul>
 
 							</div>
@@ -560,7 +688,7 @@
 						<p class="mt-4">CGPA: 8.49</p>
 					</div>
 				</div>
-			
+
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">June '19 - May '21</span>
@@ -573,7 +701,8 @@
 
 			<div class="row justify-content-center mt-5">
 				<div class="col-md-6 text-center ftco-animate">
-					<p><a href="https://drive.google.com/file/d/1qMub7fO_2ksDJu12-TdfmbpHA2Mp8dk9/view" class="btn btn-primary py-4 px-5">Download CV</a></p>
+					<p><a href="https://drive.google.com/file/d/1qMub7fO_2ksDJu12-TdfmbpHA2Mp8dk9/view"
+							class="btn btn-primary py-4 px-5">Download CV</a></p>
 				</div>
 			</div>
 		</div>
@@ -587,24 +716,29 @@
 				<div class="col-md-7 heading-section text-center ftco-animate">
 					<h1 class="big big-2">Projects</h1>
 					<h2 class="mb-4">Projects</h2>
-					<p><p>Below are the sample projects showcasing my expertise in Web Development, Machine Learning, and Data Analytics,
-						utilizing technologies such as Python, Flask, Streamlit, React.js, Node.js, and various BI tools like Microsoft
+					<p>
+					<p>Below are the sample projects showcasing my expertise in Web Development, Machine Learning, and
+						Data Analytics,
+						utilizing technologies such as Python, Flask, Streamlit, React.js, Node.js, and various BI tools
+						like Microsoft
 						Power BI.</p>
-</p>
+					</p>
 				</div>
 			</div>
 			<div class="row d-flex">
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a href="https://github.com/Shantanupawar77/HomeFinder"
-							class="block-20 zoom-effect" style="background-image: url('images/proj1.jpeg');">
+						<a href="https://github.com/Shantanupawar77/HomeFinder" class="block-20 zoom-effect"
+							style="background-image: url('images/proj1.jpeg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
 
-						<h3 class="heading"><a
-									href="https://github.com/Shantanupawar77/HomeFinder">All-in-One Real Estate Marketplace: HomeFinder</a></h3>
-							<p>Developed a full-stack real estate application using React.js, Tailwind CSS, Node.js, and MongoDB. Implemented user
-								authentication with JWT and Google OAuth, and designed responsive UIs with features like image sliders and search
+							<h3 class="heading"><a href="https://github.com/Shantanupawar77/HomeFinder">All-in-One Real
+									Estate Marketplace: HomeFinder</a></h3>
+							<p>Developed a full-stack real estate application using React.js, Tailwind CSS, Node.js, and
+								MongoDB. Implemented user
+								authentication with JWT and Google OAuth, and designed responsive UIs with features like
+								image sliders and search
 								functionality.</p>
 						</div>
 					</div>
@@ -612,15 +746,17 @@
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<a href="https://github.com/Shantanupawar77/ExpenseGuard-Pro-Daily-Expense-Management-System"
-							
 							class="block-20 zoom-effect" style="background-image: url('images/proj2.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
 
 							<h3 class="heading"><a
-									href="https://github.com/Shantanupawar77/ExpenseGuard-Pro-Daily-Expense-Management-System">Daily Expense Management System: ExpenseGuard Pro</a></h3>
-							<p>Developed a comprehensive expense management system using PHP and MySQL. Implemented secure user authentication and
-								enhanced user experience with expense management features and report export functionality.</p>
+									href="https://github.com/Shantanupawar77/ExpenseGuard-Pro-Daily-Expense-Management-System">Daily
+									Expense Management System: ExpenseGuard Pro</a></h3>
+							<p>Developed a comprehensive expense management system using PHP and MySQL. Implemented
+								secure user authentication and
+								enhanced user experience with expense management features and report export
+								functionality.</p>
 						</div>
 					</div>
 				</div>
@@ -632,9 +768,11 @@
 						<div class="text mt-3 float-right d-block">
 
 							<h3 class="heading"><a
-									href="https://github.com/Shantanupawar77/Customer_Churn_Prediction">Customer Churn Prediction Web App</a></h3>
-							<p>Developed a Flask-based web app for predicting customer churn using machine learning. Designed an intuitive UI and
-							implemented CSV file upload for enhanced scalability and efficiency.</p>
+									href="https://github.com/Shantanupawar77/Customer_Churn_Prediction">Customer Churn
+									Prediction Web App</a></h3>
+							<p>Developed a Flask-based web app for predicting customer churn using machine learning.
+								Designed an intuitive UI and
+								implemented CSV file upload for enhanced scalability and efficiency.</p>
 						</div>
 					</div>
 				</div>
@@ -644,13 +782,16 @@
 			<div class="row d-flex">
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a href="https://github.com/Shantanupawar77/AES-Image-Encryption-Decryption-App" class="block-20 zoom-effect"
-							style="background-image: url('images/proj4.png');">
+						<a href="https://github.com/Shantanupawar77/AES-Image-Encryption-Decryption-App"
+							class="block-20 zoom-effect" style="background-image: url('images/proj4.png');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
-							<h3 class="heading"><a href="https://github.com/Shantanupawar77/AES-Image-Encryption-Decryption-App">Image Encryption and Decryption App</a></h3>
-							<p>Developed an image encryption and decryption application using AES encryption. Implemented a graphical user interface
+
+							<h3 class="heading"><a
+									href="https://github.com/Shantanupawar77/AES-Image-Encryption-Decryption-App">Image
+									Encryption and Decryption App</a></h3>
+							<p>Developed an image encryption and decryption application using AES encryption.
+								Implemented a graphical user interface
 								(GUI) with Java Swing for selecting, encrypting, and decrypting image files.</p>
 						</div>
 					</div>
@@ -658,33 +799,37 @@
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<a href="https://github.com/Shantanupawar77/WhatsApp-Chat-Analysis-Platform"
-						
 							class="block-20 zoom-effect" style="background-image: url('images/proj5.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
+
 							<h3 class="heading"><a
-									href="https://github.com/Shantanupawar77/WhatsApp-Chat-Analysis-Platform">WhatsApp Chat Analyzer</a></h3>
-							<p>Developed an interactive web app for WhatsApp chat analysis using Streamlit and Python. Implemented detailed message
-							statistics, visualizations, and communication trend analysis.</p>
+									href="https://github.com/Shantanupawar77/WhatsApp-Chat-Analysis-Platform">WhatsApp
+									Chat Analyzer</a></h3>
+							<p>Developed an interactive web app for WhatsApp chat analysis using Streamlit and Python.
+								Implemented detailed message
+								statistics, visualizations, and communication trend analysis.</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry">
-						<a href="https://github.com/Shantanupawar77/Driver-Safety-System-Using-Microcontroller-and-Image-Processing" class="block-20 zoom-effect"
-							style="background-image: url('images/proj6.jpeg');">
+						<a href="https://github.com/Shantanupawar77/Driver-Safety-System-Using-Microcontroller-and-Image-Processing"
+							class="block-20 zoom-effect" style="background-image: url('images/proj6.jpeg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
-							<h3 class="heading"><a href="https://github.com/Shantanupawar77/Driver-Safety-System-Using-Microcontroller-and-Image-Processing">Driver-Safety-System-Using-Microcontroller-and-Image-Processing</a></h3>
-							<p>Developed a Driver Safety System using Arduino and image processing to detect drowsiness and intoxication, with lane
+
+							<h3 class="heading"><a
+									href="https://github.com/Shantanupawar77/Driver-Safety-System-Using-Microcontroller-and-Image-Processing">Driver-Safety-System-Using-Microcontroller-and-Image-Processing</a>
+							</h3>
+							<p>Developed a Driver Safety System using Arduino and image processing to detect drowsiness
+								and intoxication, with lane
 								and vehicle monitoring, GPS tracking, and real-time alerts.</p>
 
 						</div>
 					</div>
 				</div>
-			
+
 			</div>
 			<br>
 			<div class="row d-flex">
@@ -694,9 +839,11 @@
 							style="background-image: url('images/proj7.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
-							<h3 class="heading"><a href="https://github.com/Shantanupawar77/AmazonClone_HTML_CSS">Amazon Homepage Replica Using HTML & CSS</a></h3>
-							<p>Created a basic replica of the Amazon homepage using HTML and CSS for educational purposes, focusing on layout and
+
+							<h3 class="heading"><a href="https://github.com/Shantanupawar77/AmazonClone_HTML_CSS">Amazon
+									Homepage Replica Using HTML & CSS</a></h3>
+							<p>Created a basic replica of the Amazon homepage using HTML and CSS for educational
+								purposes, focusing on layout and
 								design skills.</p>
 
 						</div>
@@ -704,15 +851,17 @@
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a href="https://github.com/Shantanupawar77/JavaScriptClock"
-							class="block-20 zoom-effect" style="background-image: url('images/proj8.jpg');">
+						<a href="https://github.com/Shantanupawar77/JavaScriptClock" class="block-20 zoom-effect"
+							style="background-image: url('images/proj8.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
-							<h3 class="heading"><a
-									href="https://github.com/Shantanupawar77/JavaScriptClock">Dynamic JavaScript Clock with HTML & CSS</a></h3>
-							<p>Created a dynamic clock using JavaScript, HTML, and CSS. The project displays real-time updates and showcases the use
-								of JavaScript for interactive web elements, styled with CSS for a visually appealing design.</p>
+
+							<h3 class="heading"><a href="https://github.com/Shantanupawar77/JavaScriptClock">Dynamic
+									JavaScript Clock with HTML & CSS</a></h3>
+							<p>Created a dynamic clock using JavaScript, HTML, and CSS. The project displays real-time
+								updates and showcases the use
+								of JavaScript for interactive web elements, styled with CSS for a visually appealing
+								design.</p>
 
 						</div>
 					</div>
@@ -723,30 +872,38 @@
 							style="background-image: url('images/proj9.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
-							<h3 class="heading"><a href="https://github.com/Shantanupawar77/OnlineMealHub_Website">Online Meal Hub Website</a></h3>
-							<p>Developed an interactive and responsive website for Online Meal Hub, offering diverse meal services including food
-								catering, bulk ordering, and online food ordering. The website features a user-friendly interface and showcases
+
+							<h3 class="heading"><a
+									href="https://github.com/Shantanupawar77/OnlineMealHub_Website">Online Meal Hub
+									Website</a></h3>
+							<p>Developed an interactive and responsive website for Online Meal Hub, offering diverse
+								meal services including food
+								catering, bulk ordering, and online food ordering. The website features a user-friendly
+								interface and showcases
 								various culinary options, enhancing the online food ordering experience.</p>
 
 						</div>
 					</div>
 				</div>
-			
+
 			</div>
 			<br>
 
 			<div class="row d-flex">
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a href="https://github.com/Shantanupawar77/Knight-s-Tour-Solver-with-Warnsdorff-s-Rule-using-Java-Swing-and-AWT" class="block-20 zoom-effect"
-							style="background-image: url('images/proj10.png');">
+						<a href="https://github.com/Shantanupawar77/Knight-s-Tour-Solver-with-Warnsdorff-s-Rule-using-Java-Swing-and-AWT"
+							class="block-20 zoom-effect" style="background-image: url('images/proj10.png');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
-							<h3 class="heading"><a href="https://github.com/Shantanupawar77/Knight-s-Tour-Solver-with-Warnsdorff-s-Rule-using-Java-Swing-and-AWT">Knight's Tour Solver with Warnsdorff's Rule</a></h3>
-							<p>Developed a Knight's Tour solver using Java Swing and AWT, implementing Warnsdorff's Rule for more efficient
-								chessboard navigation. This project enhances solution speed and improves time complexity compared to traditional
+
+							<h3 class="heading"><a
+									href="https://github.com/Shantanupawar77/Knight-s-Tour-Solver-with-Warnsdorff-s-Rule-using-Java-Swing-and-AWT">Knight's
+									Tour Solver with Warnsdorff's Rule</a></h3>
+							<p>Developed a Knight's Tour solver using Java Swing and AWT, implementing Warnsdorff's Rule
+								for more efficient
+								chessboard navigation. This project enhances solution speed and improves time complexity
+								compared to traditional
 								methods.</p>
 
 
@@ -759,11 +916,14 @@
 							class="block-20 zoom-effect" style="background-image: url('images/proj11.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
+
 							<h3 class="heading"><a
-									href="https://github.com/Shantanupawar77/Tic-Tac-Toe_UsingJavascript">Interactive Tic-Tac-Toe Game with JavaScript</a></h3>
-							<p>Created an interactive Tic-Tac-Toe game using HTML, CSS, and JavaScript. The project features a responsive design
-								with distinct player symbols ("X" and "O"), game outcome messages, and controls for resetting and starting a new
+									href="https://github.com/Shantanupawar77/Tic-Tac-Toe_UsingJavascript">Interactive
+									Tic-Tac-Toe Game with JavaScript</a></h3>
+							<p>Created an interactive Tic-Tac-Toe game using HTML, CSS, and JavaScript. The project
+								features a responsive design
+								with distinct player symbols ("X" and "O"), game outcome messages, and controls for
+								resetting and starting a new
 								game. Enjoy classic gameplay on any device with a seamless user experience.</p>
 
 
@@ -772,21 +932,26 @@
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry">
-						<a href="https://github.com/Shantanupawar77/Rock-Paper-Scissors_Using-Javascript" class="block-20 zoom-effect"
-							style="background-image: url('images/proj12.jpeg');">
+						<a href="https://github.com/Shantanupawar77/Rock-Paper-Scissors_Using-Javascript"
+							class="block-20 zoom-effect" style="background-image: url('images/proj12.jpeg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
-							<h3 class="heading"><a href="https://github.com/Shantanupawar77/Rock-Paper-Scissors_Using-Javascript">Rock-Paper-Scissors Game with JavaScript</a></h3>
-							<p><p>Developed a Rock-Paper-Scissors game using HTML, CSS, and JavaScript. The game features an engaging interface with
-								interactive buttons for player choices, visual feedback on game results, and an easy-to-use design that adapts to
+
+							<h3 class="heading"><a
+									href="https://github.com/Shantanupawar77/Rock-Paper-Scissors_Using-Javascript">Rock-Paper-Scissors
+									Game with JavaScript</a></h3>
+							<p>
+							<p>Developed a Rock-Paper-Scissors game using HTML, CSS, and JavaScript. The game features
+								an engaging interface with
+								interactive buttons for player choices, visual feedback on game results, and an
+								easy-to-use design that adapts to
 								various devices.</p>
-</p>
+							</p>
 
 						</div>
 					</div>
 				</div>
-			
+
 			</div>
 			<br>
 
@@ -798,10 +963,13 @@
 							style="background-image: url('images/proj13.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
-							<h3 class="heading"><a href="https://github.com/Shantanupawar77/Netflix_Clone">Netflix Clone Using HTML and CSS</a></h3>
-							<p>Developed a Netflix homepage replica using HTML and CSS. The project showcases a visually appealing and responsive
-								design, replicating the layout and styling of the Netflix homepage for educational purposes.</p>
+
+							<h3 class="heading"><a href="https://github.com/Shantanupawar77/Netflix_Clone">Netflix Clone
+									Using HTML and CSS</a></h3>
+							<p>Developed a Netflix homepage replica using HTML and CSS. The project showcases a visually
+								appealing and responsive
+								design, replicating the layout and styling of the Netflix homepage for educational
+								purposes.</p>
 
 
 
@@ -810,15 +978,18 @@
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a href="https://github.com/Shantanupawar77/Student_Mark_Predictor"
-							class="block-20 zoom-effect" style="background-image: url('images/proj14.jpg');">
+						<a href="https://github.com/Shantanupawar77/Student_Mark_Predictor" class="block-20 zoom-effect"
+							style="background-image: url('images/proj14.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
+
 							<h3 class="heading"><a
-									href="https://github.com/Shantanupawar77/Student_Mark_Predictor">Student Mark Predictor</a></h3>
-							<p>This Flask-based web application predicts student grades based on their study hours using a machine learning model.
-								Users can input the number of study hours, and the application forecasts the corresponding score. </p>
+									href="https://github.com/Shantanupawar77/Student_Mark_Predictor">Student Mark
+									Predictor</a></h3>
+							<p>This Flask-based web application predicts student grades based on their study hours using
+								a machine learning model.
+								Users can input the number of study hours, and the application forecasts the
+								corresponding score. </p>
 
 
 
@@ -831,31 +1002,40 @@
 							style="background-image: url('images/proj15.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
-							<h3 class="heading"><a href="https://github.com/Shantanupawar77/Forest_Fire_Prediction">Forest Fire Prediction</a></h3>
-							<p>This Flask web application predicts the probability of a forest fire based on input parameters such as oxygen,
-								temperature, and humidity levels. Users can input these values, and the app uses a trained machine learning model to
+
+							<h3 class="heading"><a
+									href="https://github.com/Shantanupawar77/Forest_Fire_Prediction">Forest Fire
+									Prediction</a></h3>
+							<p>This Flask web application predicts the probability of a forest fire based on input
+								parameters such as oxygen,
+								temperature, and humidity levels. Users can input these values, and the app uses a
+								trained machine learning model to
 								provide a prediction, indicating whether action is needed or if the forest is safe.</p>
 
 						</div>
 					</div>
 				</div>
-			
+
 			</div>
 			<br>
 
 			<div class="row d-flex">
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a href="https://github.com/Shantanupawar77/LaneDetect-Road-Lane-Detection-System" class="block-20 zoom-effect"
-							style="background-image: url('images/proj16.jpg');">
+						<a href="https://github.com/Shantanupawar77/LaneDetect-Road-Lane-Detection-System"
+							class="block-20 zoom-effect" style="background-image: url('images/proj16.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
-							<h3 class="heading"><a href="https://github.com/Shantanupawar77/LaneDetect-Road-Lane-Detection-System">LaneDetect - Road Lane Detection System</a></h3>
-							<p>LaneDetect is a Python project using OpenCV for road lane detection, aiding in driver assistance by accurately
-								identifying lane boundaries. It leverages Canny edge detection and Hough transformation techniques, suitable for
-								real-time video and static images. The project is easy to integrate and available on GitHub under the MIT License.
+
+							<h3 class="heading"><a
+									href="https://github.com/Shantanupawar77/LaneDetect-Road-Lane-Detection-System">LaneDetect
+									- Road Lane Detection System</a></h3>
+							<p>LaneDetect is a Python project using OpenCV for road lane detection, aiding in driver
+								assistance by accurately
+								identifying lane boundaries. It leverages Canny edge detection and Hough transformation
+								techniques, suitable for
+								real-time video and static images. The project is easy to integrate and available on
+								GitHub under the MIT License.
 							</p>
 
 
@@ -864,17 +1044,22 @@
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
-						<a href="https://github.com/Shantanupawar77/Weather-Forecast-App"
-							class="block-20 zoom-effect" style="background-image: url('images/proj17.png');">
+						<a href="https://github.com/Shantanupawar77/Weather-Forecast-App" class="block-20 zoom-effect"
+							style="background-image: url('images/proj17.png');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
+
 							<h3 class="heading"><a
-									href="https://github.com/Shantanupawar77/Weather-Forecast-App">Weather Forecast App</a></h3>
-							<p>The Weather Forecast App allows users to check the weather for various cities. Enter a city name to retrieve
-								real-time weather data, including temperature and status, from the OpenWeatherMap API. It features a user-friendly,
-								responsive design with technologies like Node.js, Express.js, Handlebars, HTML, CSS, and JavaScript. Hosted at
-							<a href="https://weather-forecast-app-iber.onrender.com">Link</a>.</p>
+									href="https://github.com/Shantanupawar77/Weather-Forecast-App">Weather Forecast
+									App</a></h3>
+							<p>The Weather Forecast App allows users to check the weather for various cities. Enter a
+								city name to retrieve
+								real-time weather data, including temperature and status, from the OpenWeatherMap API.
+								It features a user-friendly,
+								responsive design with technologies like Node.js, Express.js, Handlebars, HTML, CSS, and
+								JavaScript. Hosted at
+								<a href="https://weather-forecast-app-iber.onrender.com">Link</a>.
+							</p>
 
 
 
@@ -885,20 +1070,24 @@
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry">
-						<a href="https://github.com/Shantanupawar77/Infrastructure_Damage_Tracker_Using_Combined_CNN_LBP" class="block-20 zoom-effect"
-							style="background-image: url('images/proj18.jpg');">
+						<a href="https://github.com/Shantanupawar77/Infrastructure_Damage_Tracker_Using_Combined_CNN_LBP"
+							class="block-20 zoom-effect" style="background-image: url('images/proj18.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-			
-							<h3 class="heading"><a href="https://github.com/Shantanupawar77/Infrastructure_Damage_Tracker_Using_Combined_CNN_LBP">Infrastructure Damage Tracker Using Combined CNN and LBP</a></h3>
-							<p>Monitors infrastructure damage post-disasters using machine learning, achieving 92.23% accuracy. Combines features from
-							CNN (VGG16) and LBP for robust predictions. Deployed as a Flask web app, allowing users to upload images and predict
-							damage status.</p>
+
+							<h3 class="heading"><a
+									href="https://github.com/Shantanupawar77/Infrastructure_Damage_Tracker_Using_Combined_CNN_LBP">Infrastructure
+									Damage Tracker Using Combined CNN and LBP</a></h3>
+							<p>Monitors infrastructure damage post-disasters using machine learning, achieving 92.23%
+								accuracy. Combines features from
+								CNN (VGG16) and LBP for robust predictions. Deployed as a Flask web app, allowing users
+								to upload images and predict
+								damage status.</p>
 
 						</div>
 					</div>
 				</div>
-			
+
 			</div>
 			<!-- <br>
 
@@ -961,7 +1150,7 @@
 			<br> -->
 			<!-- added justify-content-center to center align the last two projects -->
 			<!-- <div class="row d-flex justify-content-center"> -->
-				<!-- <div class="col-md-4 d-flex ftco-animate">
+			<!-- <div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<a href="https://github.com/rishabhnmishra/sales_forecasting/tree/main"
 							class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
@@ -976,7 +1165,7 @@
 						</div>
 					</div>
 				</div> -->
-				<!-- <div class="col-md-4 d-flex ftco-animate">
+			<!-- <div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry justify-content-end">
 						<a href="https://github.com/rishabhnmishra/customer_segmentation/blob/main/Customer_Segmentation-final.ipynb"
 							class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
@@ -1096,7 +1285,9 @@
 							<span class="icon-globe"></span>
 						</div>
 						<h3 class="mb-4">Download Resume</h3>
-						<p><a href="https://drive.google.com/file/d/1qMub7fO_2ksDJu12-TdfmbpHA2Mp8dk9/view">resumelink</a></p>
+						<p><a
+								href="https://drive.google.com/file/d/1qMub7fO_2ksDJu12-TdfmbpHA2Mp8dk9/view">resumelink</a>
+						</p>
 					</div>
 				</div>
 
@@ -1138,7 +1329,7 @@
 
 					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						Copyright &copy;
-						<script>document.write(new Date().getFullYear());</script> All rights reserved 
+						<script>document.write(new Date().getFullYear());</script> All rights reserved
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					</p>
 				</div>
